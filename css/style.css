@@ -61,7 +61,7 @@ hr {
   width: 70px;
   text-align: center;
   position: relative;
-  background: #1e7a46;
+  background: #386766;
   margin-bottom: 20px;
   border: 0;
 }
@@ -71,7 +71,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #386766;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
@@ -86,7 +86,7 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  color: #354f52;
+  color: #45c6b1;
   font-size: 14px;
   font-weight: 700;
   padding: 8px 2px;
@@ -114,7 +114,7 @@ hr {
 #menu .phone span {
   font-size: 14px;
   display: block;
-  color: #354f52;
+  color: #45c6b1;
 }
 .navbar-toggle {
   border-radius: 0;
@@ -149,7 +149,7 @@ hr {
 .btn-custom {
   text-transform: uppercase;
   color: #fff;
-  background-color: #354f52;
+  background-color: #386766;
   padding: 14px 20px;
   letter-spacing: 1px;
   margin: 0;
@@ -189,7 +189,7 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/moscath-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  background-color: #386766;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -228,7 +228,7 @@ header .intro-text {
   text-align: center;
   padding: 20px 0 10px;
   color: rgba(255, 255, 255, 0.7);
-  background: #354f52 !important;
+  background: #386766 !important;
 }
 #get-touch h3 {
   font-size: 24px;
@@ -281,7 +281,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #1f386e;
+  color: #386766;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -369,7 +369,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  margin-top: -100px;
+  margin-top: 10px;
 }
 #testimonials i {
   color: #e6e6e6;
@@ -408,7 +408,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: #354f52;
+  background: #386766;
   color: rgba(255, 255, 255, 0.65);
 }
 #contact .section-title {
@@ -539,6 +539,10 @@ label {
   font-size: 2rem !important;
   font-weight: 300;
   font-style: italic;
+}
+
+.moscath-logo {
+  margin-top: -1rem;
 }
 
 @media (max-width: 768px) {
