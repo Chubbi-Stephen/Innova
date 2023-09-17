@@ -86,12 +86,13 @@ hr {
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  color: #45c6b1;
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0 20px;
+  transition: all 0.4s;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
   color: #cad2c5;
@@ -114,7 +115,7 @@ hr {
 #menu .phone span {
   font-size: 14px;
   display: block;
-  color: #45c6b1;
+  color: #fff;
 }
 .navbar-toggle {
   border-radius: 0;
