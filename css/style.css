@@ -67,11 +67,11 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 5px;
+  padding: 8px;
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #386766;
+  background-color: #366164;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
@@ -79,7 +79,7 @@ hr {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: #354f52;
+  color: #366164;
   text-transform: uppercase;
   letter-spacing: -1px;
 }
@@ -115,7 +115,7 @@ hr {
 #menu .phone span {
   font-size: 14px;
   display: block;
-  color: #fff;
+  color: #f6f6f6;
 }
 .navbar-toggle {
   border-radius: 0;
@@ -192,7 +192,7 @@ a:focus,
   background: url(../img/default.png) center center no-repeat;
   margin: auto;
   object-fit: cover;
-  background-color: #386766;
+  background-color: #f6f6f6;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -235,7 +235,7 @@ header .intro-text {
   text-align: center;
   padding: 20px 0 10px;
   color: rgba(255, 255, 255, 0.7);
-  background: #386766 !important;
+  background: #366164 !important;
 }
 #get-touch h3 {
   font-size: 24px;
@@ -415,7 +415,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: #386766;
+  background: #366164;
   color: rgba(255, 255, 255, 0.65);
 }
 #contact .section-title {
@@ -549,7 +549,8 @@ label {
 }
 
 .moscath-logo {
-  margin-top: -1rem;
+  margin-top: -2.4rem;
+  height: 30px;
 }
 
 @media (max-width: 768px) {
@@ -564,5 +565,9 @@ label {
     -moz-background-size: contain;
     background-size: contain;
     -o-background-size: contain;
+  }
+  #about {
+    padding: 5px 0;
+    background: #f6f6f6;
   }
 }
