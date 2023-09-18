@@ -346,7 +346,7 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: rgba(31, 56, 110, 0.8);
+  background: rgba(56, 103, 102, 0.6);
   padding: 30% 0 0 0;
   height: 100%;
   width: 100%;
@@ -569,5 +569,11 @@ label {
   #about {
     padding: 5px 0;
     background: #f6f6f6;
+  }
+  #menu .phone {
+    margin-left: 140px;
+  }
+  .moscath-logo {
+    margin-left: -30px;
   }
 }
