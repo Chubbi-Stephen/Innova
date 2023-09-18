@@ -53,8 +53,6 @@ ol {
 ul,
 ol {
   padding: 0;
-  /* webkit-padding: 0;
-  moz-padding: 0; */
 }
 hr {
   height: 2px;
@@ -558,9 +556,6 @@ label {
     margin: 50px 0;
   }
   .intro {
-    /* background: url(../img/default.png) center center no-repeat; */
-    /* margin: auto; */
-    /* object-fit: contain; */
     -webkit-background-size: contain;
     -moz-background-size: contain;
     background-size: contain;
