@@ -190,6 +190,8 @@ a:focus,
   width: 100%;
   padding: 0;
   background: url(../img/default.png) center center no-repeat;
+  margin: auto;
+  object-fit: cover;
   background-color: #386766;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -225,7 +227,7 @@ header .intro-text {
   text-align: center;
 }
 .learn {
-  margin-top: 120px !important;
+  margin-top: 0px !important;
 }
 /* Get Touch Section */
 #get-touch {
@@ -553,5 +555,14 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  .intro {
+    /* background: url(../img/default.png) center center no-repeat; */
+    /* margin: auto; */
+    /* object-fit: contain; */
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
   }
 }
